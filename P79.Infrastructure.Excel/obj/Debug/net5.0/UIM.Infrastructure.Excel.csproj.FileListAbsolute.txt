@@ -1,0 +1,12 @@
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.csproj.AssemblyReference.cache
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.AssemblyInfoInputs.cache
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.AssemblyInfo.cs
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.csproj.CoreCompileInputs.cache
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\bin\Debug\net5.0\UIM.Infrastructure.Excel.deps.json
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\bin\Debug\net5.0\UIM.Infrastructure.Excel.dll
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\bin\Debug\net5.0\ref\UIM.Infrastructure.Excel.dll
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\bin\Debug\net5.0\UIM.Infrastructure.Excel.pdb
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.dll
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\ref\UIM.Infrastructure.Excel.dll
+C:\Repository\bjb-uim-api\UIM.Infrastructure.Excel\obj\Debug\net5.0\UIM.Infrastructure.Excel.pdb

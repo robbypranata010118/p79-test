@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>P79.Infrastructure.Pdf</AssemblyName>
+    <RootNamespace>P79.Infrastructure.Pdf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Haukcode.WkHtmlToPdfDotNet" Version="1.5.66" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P79.Base\P79.Base.csproj" />
+  </ItemGroup>
+
+</Project>

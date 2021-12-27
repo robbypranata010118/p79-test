@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e729c497-64e0-408e-8627-ac1e498f2d3f": {
+      "ProjectGuid": "e729c497-64e0-408e-8627-ac1e498f2d3f",
+      "DisplayName": "P79.Application",
+      "ColorIndex": 0
+    },
+    "713de6d9-84b7-4711-92dd-925ee617febf": {
+      "ProjectGuid": "713de6d9-84b7-4711-92dd-925ee617febf",
+      "DisplayName": "P79.Base",
+      "ColorIndex": 1
+    },
+    "845a9f22-6b62-497e-8e53-68e6081d8987": {
+      "ProjectGuid": "845a9f22-6b62-497e-8e53-68e6081d8987",
+      "DisplayName": "P79.Domain",
+      "ColorIndex": 2
+    },
+    "eb4a96c3-789e-4d5c-abdf-e148eab41688": {
+      "ProjectGuid": "eb4a96c3-789e-4d5c-abdf-e148eab41688",
+      "DisplayName": "P79.Infrastructure.Excel",
+      "ColorIndex": 3
+    },
+    "a663ce1b-6f9e-4c81-8b39-15d3b2d622a7": {
+      "ProjectGuid": "a663ce1b-6f9e-4c81-8b39-15d3b2d622a7",
+      "DisplayName": "P79.Infrastructure.Pdf",
+      "ColorIndex": 4
+    },
+    "6c013871-8c5d-42e7-9858-e1beedc18cf7": {
+      "ProjectGuid": "6c013871-8c5d-42e7-9858-e1beedc18cf7",
+      "DisplayName": "P79.Infrastructure.Persistence",
+      "ColorIndex": 5
+    },
+    "5308c01e-567d-4999-b15c-29497909a79b": {
+      "ProjectGuid": "5308c01e-567d-4999-b15c-29497909a79b",
+      "DisplayName": "P79.Api",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

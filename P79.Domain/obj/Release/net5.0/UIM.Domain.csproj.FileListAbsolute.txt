@@ -1,0 +1,12 @@
+C:\Repository\bjb-uim-api\UIM.Domain\bin\Release\net5.0\UIM.Domain.deps.json
+C:\Repository\bjb-uim-api\UIM.Domain\bin\Release\net5.0\UIM.Domain.dll
+C:\Repository\bjb-uim-api\UIM.Domain\bin\Release\net5.0\ref\UIM.Domain.dll
+C:\Repository\bjb-uim-api\UIM.Domain\bin\Release\net5.0\UIM.Domain.pdb
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.csproj.AssemblyReference.cache
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.AssemblyInfoInputs.cache
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.AssemblyInfo.cs
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.csproj.CoreCompileInputs.cache
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.dll
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\ref\UIM.Domain.dll
+C:\Repository\bjb-uim-api\UIM.Domain\obj\Release\net5.0\UIM.Domain.pdb

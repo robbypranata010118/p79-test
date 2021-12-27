@@ -1,0 +1,12 @@
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\bin\Debug\net5.0\GaransiBank.Domain.deps.json
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\bin\Debug\net5.0\GaransiBank.Domain.dll
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\bin\Debug\net5.0\ref\GaransiBank.Domain.dll
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\bin\Debug\net5.0\GaransiBank.Domain.pdb
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.csproj.AssemblyReference.cache
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.AssemblyInfoInputs.cache
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.AssemblyInfo.cs
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.csproj.CoreCompileInputs.cache
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.dll
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\ref\GaransiBank.Domain.dll
+C:\Repository\bjb-garansibank-web\GaransiBank.Domain\obj\Debug\net5.0\GaransiBank.Domain.pdb

@@ -1,0 +1,11 @@
+{
+  "Cors": {
+    "Origins": [
+      "http://103.82.241.179:3000",
+      "http://103.82.241.179:3005",
+      "https://uim-fe-aeyr2wvea-nugrahramadani.vercel.app",
+      "http://localhost:3000",
+      "http://localhost:10469"
+    ]
+  }
+}

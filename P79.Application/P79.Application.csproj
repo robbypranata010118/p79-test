@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>P79.Application</AssemblyName>
+    <RootNamespace>P79.Application</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commons\**" />
+    <EmbeddedResource Remove="Commons\**" />
+    <None Remove="Commons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Mappings\ProductProfile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.3" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.24" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.9" />
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+	<PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
+	<PackageReference Include="Serilog" Version="2.10.0" />
+	<PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+	<PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
+	<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P79.Base\P79.Base.csproj" />
+    <ProjectReference Include="..\P79.Domain\P79.Domain.csproj" />
+    <ProjectReference Include="..\P79.Infrastructure.Excel\P79.Infrastructure.Excel.csproj" />
+    <ProjectReference Include="..\P79.Infrastructure.Pdf\P79.Infrastructure.Pdf.csproj" />
+    <ProjectReference Include="..\P79.Infrastructure.Persistence\P79.Infrastructure.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

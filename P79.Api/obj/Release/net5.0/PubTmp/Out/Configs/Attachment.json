@@ -1,0 +1,7 @@
+{
+  "Attachment": {
+    "UploadPath": "wwwroot/files/",
+    "BaseUrl": "https://localhost:44313/",
+    "UseFileService": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Apis": {
+    "Uim": {
+      "Endpoint": "http://10.6.226.199:3000/api",
+      "AppId": "123"
+    }
+  },
+  "JwtBearerToken": {
+    "SecretKey": "TerimaKasihBJBkarenaengkauTelahMemberikanPinjamanSehinggaAkuBisaBangunRUmAH",
+    "Issuer": "bjb",
+    "Audience": "bjb"
+  },
+  "PageVerification": "https://localhost:44368/User/confirmation/",
+  "Base": {
+    "TokenExpired": 300 //in minutes
+  }
+}

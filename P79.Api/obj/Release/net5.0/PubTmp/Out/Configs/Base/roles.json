@@ -1,0 +1,22 @@
+{
+  "Roles": [
+    {
+      "Name": "administrator",
+      "Description": "Administrator",
+      "RoleUimId": "495",
+      "DefaultFeature": "Customer"
+    },
+    {
+      "Name": "guest",
+      "Description": "Guest",
+      "RoleUimId": "0",
+      "DefaultFeature": "Customer"
+    },
+    {
+      "Name": "system",
+      "Description": "SYSTEM",
+      "RoleUimId": "0",
+      "DefaultFeature": "Customer"
+    }
+  ]
+}

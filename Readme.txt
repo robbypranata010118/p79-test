@@ -1,0 +1,1 @@
+Change section ConnectionStrings.DefaultConnection to local your database in Appseting.Development.json

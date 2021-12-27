@@ -1,0 +1,154 @@
+2021-12-25 22:39:21.154 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:39:30.906 +07:00 [INF] Executed DbCommand (8,513ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE DATABASE [bjbP79Db];
+2021-12-25 22:39:34.086 +07:00 [INF] Executed DbCommand (3,177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [bjbP79Db] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-12-25 22:39:35.910 +07:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:39:36.667 +07:00 [INF] Executed DbCommand (295ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-12-25 22:39:36.697 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:39:36.746 +07:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:39:36.788 +07:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:39:36.806 +07:00 [INF] No migrations were applied. The database is already up to date.
+2021-12-25 22:40:23.689 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:40:24.389 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:40:24.454 +07:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:40:24.488 +07:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:40:24.524 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:40:24.796 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:40:24.810 +07:00 [INF] No migrations were applied. The database is already up to date.
+2021-12-25 22:40:25.085 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-25 22:40:25.086 +07:00 [INF] Hosting environment: Development
+2021-12-25 22:40:25.086 +07:00 [INF] Content root path: C:\Work\padepokan79-testing\P79.Api
+2021-12-25 22:40:25.177 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.html - -
+2021-12-25 22:41:19.356 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:41:19.969 +07:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:41:20.022 +07:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:41:20.067 +07:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:41:20.094 +07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:41:20.324 +07:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:41:20.340 +07:00 [INF] No migrations were applied. The database is already up to date.
+2021-12-25 22:41:20.597 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-25 22:41:20.598 +07:00 [INF] Hosting environment: Development
+2021-12-25 22:41:20.598 +07:00 [INF] Content root path: C:\Work\padepokan79-testing\P79.Api
+2021-12-25 22:41:20.642 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.html - -
+2021-12-25 22:42:41.573 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:42:42.198 +07:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:42:42.252 +07:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:42:42.282 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:42:42.312 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:42:42.563 +07:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:42:42.580 +07:00 [INF] No migrations were applied. The database is already up to date.
+2021-12-25 22:42:42.854 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-25 22:42:42.855 +07:00 [INF] Hosting environment: Development
+2021-12-25 22:42:42.855 +07:00 [INF] Content root path: C:\Work\padepokan79-testing\P79.Api
+2021-12-25 22:42:42.899 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.html - -
+2021-12-25 22:42:43.419 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/index.html - - - 200 - text/html;charset=utf-8 522.0041ms
+2021-12-25 22:42:43.433 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2021-12-25 22:42:43.497 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 63.6830ms
+2021-12-25 22:42:43.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - -
+2021-12-25 22:42:43.742 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 32.8803ms
+2021-12-25 22:57:05.382 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:57:36.142 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:57:47.901 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:57:48.466 +07:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:57:48.522 +07:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:57:50.334 +07:00 [INF] Executed DbCommand (1,642ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:59:06.407 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:59:10.778 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:59:39.215 +07:00 [INF] Entity Framework Core 5.0.11 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=P79.Infrastructure.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2021-12-25 22:59:39.715 +07:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:59:39.779 +07:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:59:39.835 +07:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT 1
+2021-12-25 22:59:39.861 +07:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-12-25 22:59:39.912 +07:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-12-25 22:59:39.925 +07:00 [INF] Applying migration '20211225155910_InitialDatabase'.
+2021-12-25 22:59:40.041 +07:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [IsActive] bit NOT NULL,
+    [UserIn] nvarchar(50) NULL,
+    [DateIn] datetime2 NOT NULL,
+    [UserUp] nvarchar(50) NULL,
+    [DateUp] datetime2 NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);
+2021-12-25 22:59:40.094 +07:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE TABLE [AccountPoints] (
+    [AccountPointId] int NOT NULL,
+    [Point] int NOT NULL,
+    [UserIn] nvarchar(50) NULL,
+    [DateIn] datetime2 NOT NULL,
+    [UserUp] nvarchar(50) NULL,
+    [DateUp] datetime2 NULL,
+    CONSTRAINT [PK_AccountPoints] PRIMARY KEY ([AccountPointId]),
+    CONSTRAINT [FK_AccountPoints_Accounts_AccountPointId] FOREIGN KEY ([AccountPointId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);
+2021-12-25 22:59:40.131 +07:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE TABLE [Transactions] (
+    [Id] int NOT NULL IDENTITY,
+    [AccountId] int NOT NULL,
+    [TransactionDate] datetime2 NOT NULL,
+    [Description] nvarchar(450) NULL,
+    [DebitCreditStatus] nvarchar(1) NULL,
+    [Amount] Money NOT NULL,
+    [IsActive] bit NOT NULL,
+    [UserIn] nvarchar(50) NULL,
+    [DateIn] datetime2 NOT NULL,
+    [UserUp] nvarchar(50) NULL,
+    [DateUp] datetime2 NULL,
+    CONSTRAINT [PK_Transactions] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Transactions_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);
+2021-12-25 22:59:40.162 +07:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+CREATE INDEX [IX_Transactions_AccountId] ON [Transactions] ([AccountId]);
+2021-12-25 22:59:40.192 +07:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='300']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20211225155910_InitialDatabase', N'5.0.11');

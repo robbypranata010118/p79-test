@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "leZ8/zKsAKwUe2O2bNjZiZ6G2Ab5NLtrsEPoQSdThK2Udf9DGLGiyT4Kcx4rjziP/hl9sjYsCF2fOoeHeKfVGA==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\padepokan79-testing\\P79.Domain\\P79.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dev\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

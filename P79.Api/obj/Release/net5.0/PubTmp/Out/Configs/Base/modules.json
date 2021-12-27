@@ -1,0 +1,604 @@
+{
+  "Modules": [
+    {
+      "Name": "Customer",
+      "Label": "Customers",
+      "Icon": "",
+      "Order": 1,
+      "Features": [
+        {
+          "Name": "Customer",
+          "Label": "Customers",
+          "Order": 1,
+          "Icon": "mdi mdi-account-details-outline",
+          "Url": "",
+          "ServicesPath": "Customer/Index",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            },
+            {
+              "Name": "CanApproveJLA",
+              "Label": "Approval JLA"
+            },
+            {
+              "Name": "CanApproveDivision",
+              "Label": "Approval Division"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "MasterData",
+      "Label": "Data Master",
+      "Icon": "",
+      "Order": 2,
+      "Features": [
+        {
+          "Name": "Form",
+          "Label": "Formulir",
+          "Order": 1,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Form",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "LegalEntity",
+          "Label": "Badan Hukum",
+          "Order": 2,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "LegalEntity",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "BankGuaranteeType",
+          "Label": "Tipe Garansi Bank",
+          "Order": 3,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "BankGuaranteeType",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "BusinessField",
+          "Label": "Bidang Usaha",
+          "Order": 4,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "BusinessField",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "BusinessType",
+          "Label": "Jenis Usaha",
+          "Order": 5,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "BusinessType",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "ClaimPeriod",
+          "Label": "Claim Period",
+          "Order": 6,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "ClaimPeriod",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Currency",
+          "Label": "Currency",
+          "Order": 7,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Currency",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "EconomicSector",
+          "Label": "Sektor Ekonomi",
+          "Order": 8,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "EconomicSector",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "GuaranteeBanksForm",
+          "Label": "Formulir Garansi Bank",
+          "Order": 9,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "GuaranteeBanksForm",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Language",
+          "Label": "Bahasa",
+          "Order": 10,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Language",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Province",
+          "Label": "Provinsi",
+          "Order": 11,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Province",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "City",
+          "Label": "Kota",
+          "Order": 12,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "City",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Branch",
+          "Label": "Cabang",
+          "Order": 13,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Branch",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "CollateralType",
+          "Label": "Tipe Jaminan",
+          "Order": 14,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "CollateralType",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Retention",
+          "Label": "Retensi",
+          "Order": 15,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Retention",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "ApiClient",
+          "Label": "Api Client",
+          "Order": 16,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "ApiClient",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "RoleAccess",
+      "Label": "Manajemen Hak Akses",
+      "Icon": "",
+      "Order": 4,
+      "Features": [
+        {
+          "Name": "Roles",
+          "Label": "Roles",
+          "Order": 1,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "Role",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "PasswordPolicy",
+          "Label": "Password Policy",
+          "Order": 2,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "PasswordPolicy",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanAdd",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "AuditTrail",
+          "Label": "Audit Trail",
+          "Order": 3,
+          "Icon": "",
+          "Url": "",
+          "ServicesPath": "AuditTrail",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Monitoring",
+      "Label": "Monitoring",
+      "Icon": "",
+      "Order": 1,
+      "Features": [
+        {
+          "Name": "BankGuarantee",
+          "Label": "Pengajuan Garansi Bank",
+          "Order": 1,
+          "Icon": "mdi mdi-file-document-box-search",
+          "Url": "",
+          "ServicesPath": "BankGuarantee/Index",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanCreate",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        },
+        {
+          "Name": "Addendum",
+          "Label": "Pengajuan Addendum",
+          "Order": 1,
+          "Icon": "mdi mdi-file-document-box-search",
+          "Url": "",
+          "ServicesPath": "Addendum/Index",
+          "Permissions": [
+            {
+              "Name": "CanView",
+              "Label": "Menampilkan"
+            },
+            {
+              "Name": "CanCreate",
+              "Label": "Menambahkan"
+            },
+            {
+              "Name": "CanUpdate",
+              "Label": "Mengubah"
+            },
+            {
+              "Name": "CanDelete",
+              "Label": "Menghapus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Username": "adminuim@BANKJABAR",
+  "Password": "Nuqaqi92",
+  "url": "103.82.241.179",
+  "bindDn": "CN=adminuim,OU=Bank Jabar Banten,DC=BANKJABAR,DC=CO,DC=ID",
+  "bindCredentials": "true",
+  "searchBase": "DC=BANKJABAR,DC=CO,DC=ID",
+  "searchFilter": "(&(objectClass=user)(objectClass=person)(sAMAccountName={0}))",
+  "adminCn": "OU=Bank Jabar Banten,DC=BANKJABAR,DC=CO,DC=ID"
+}

@@ -1,0 +1,9 @@
+{
+  "MailkitConfiguration": {
+    "Host": "smtp.gmail.com",
+    "Username": "cqms@radyalabs.com",
+    "Password": "ph30nwjcqm5",
+    "Port": 587,
+    "EnableSSL": true
+  }
+}
